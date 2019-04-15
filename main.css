@@ -1,0 +1,33 @@
+/*Main Search Area*/
+.search-bar {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.background {
+  width: 100%;
+  height: 800px; }
+
+.search-bar input {
+  width: 100%; }
+
+.title {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  color: black; }
+
+.go {
+  color: green; }
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  color: red; }
+
+/*Main Search Area End*/
+
+/*# sourceMappingURL=main.css.map */
