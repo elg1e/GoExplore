@@ -6,16 +6,12 @@ var hostnameRegexp = new RegExp('^https?://.+?/');
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        mapTypeControl: false,
-        panControl: false,
-        zoomControl: false,
-        streetViewControl: false
+        center: { lat: 50.000, lng: -50.644 },
+        zoom: 3
     });
-
     infoWindow = new google.maps.InfoWindow({
         content: document.getElementById('info-content')
     });
-
     autocomplete = new google.maps.places.Autocomplete(
         (
             document.getElementById('autocomplete')), {
@@ -24,9 +20,6 @@ function initMap() {
     places = new google.maps.places.PlacesService(map);
 
     autocomplete.addListener('place_changed', onPlaceChanged);
-
-    document.getElementById('country').addEventListener(
-        'change', setAutocompleteCountry);
 }
 
 function onPlaceChanged() {
@@ -78,20 +71,6 @@ function clearMarkers() {
         }
     }
     markers = [];
-}
-
-function setAutocompleteCountry() {
-    var country = document.getElementById('country').value;
-    if (country == 'all') {
-        autocomplete.setComponentRestrictions({ 'country': [] });
-        map.setCenter({ lat: 15, lng: 0 });
-        map.setZoom(2);
-    }
-    else {
-        autocomplete.setComponentRestrictions({ 'country': country });
-    }
-    clearResults();
-    clearMarkers();
 }
 
 function dropMarker(i) {
