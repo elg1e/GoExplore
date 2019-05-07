@@ -7,24 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <title>GoExplore</title>
 </head>
 
 <body>
 
-    <div id="backgroundCarousel" class="d-none d-sm-block carousel slide" data-ride="carousel">
+    <div id="backgroundCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/chile.jpg" class="background-images" alt="Image of the Chile mountains">
+                <img src="assets/images/vancouver.jpg" class="background-images" alt="Image of the Chile mountains">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/london.jpg" class="background-images" alt="Image of London City">
+                <img src="assets/images/mountainRange.jpg" class="background-images" alt="Image of London City">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/wight.jpg" class="background-images" alt="Image of the Isle of Wight">
+                <img src="assets/images/skiResort.jpg" class="background-images" alt="Image of the Isle of Wight">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/phuket.jpg" class="background-images" alt="Image of boats in Phuket">
+                <img src="assets/images/sandy.jpg" class="background-images" alt="Image of boats in Phuket">
             </div>
         </div>
     </div>
@@ -44,8 +45,10 @@
     <div id="locationField">
         <input id="autocomplete" placeholder="Enter a city" type="text">
         <br>
-        <button onclick=>Search</button>
-        <button onclick="clearMarkers();">Reset</button>
+        <div class="twoButtonGroup">
+            <button class="searchButton">Search</button>
+            <button class="resetButton" onclick="clearMarkers();">Reset</button>
+        </div>
     </div>
 
     <div id="listing" style="display: none">
@@ -82,24 +85,24 @@
     </div>
     <div class="container-fluid buttonGroup">
         <div class="row btnRow1">
-            <div class="col-xs-12 col-sm-12 col-md-6 buttonCont">
-                <button class="eachButton" onclick="search( 'restaurant');">Restaurants</button>
+            <div class="col-xs-12 col-sm-12 col-md-6 buttonContent">
+                <button class="restaurantButton" onclick="search( 'restaurant');">Restaurants</button>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 buttonCont">
-                <button class="eachButton" onclick="search( 'lodging');">Accomodation</button>
+            <div class="col-xs-12 col-sm-12 col-md-6 buttonContent">
+                <button class="accommodationButton" onclick="search( 'lodging');">Accomodation</button>
             </div>
         </div>
         <div class="row btnRow2">
-            <div class="col-xs-12 col-sm-12 col-md-6 buttonCont">
-                <button class="eachButton" onclick="search( 'bar');">Bars</button>
+            <div class="col-xs-12 col-sm-12 col-md-6 buttonContent">
+                <button class="barButton" onclick="search( 'bar');">Bars</button>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 buttonCont">
-                <button class="eachButton" onclick="search( 'bar');">Bars</button>
+            <div class="col-xs-12 col-sm-12 col-md-6 buttonContent">
+                <button class="cafeButton" onclick="search( 'cafe');">Cafes</button>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript" src="assets/js/maps.js"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAblhULSrxzeCAV196-wKF7B2BVm3QHOEY&libraries=places&callback=initMap" async defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
