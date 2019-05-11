@@ -20,6 +20,7 @@ function initMap() {
     places = new google.maps.places.PlacesService(map);
 
     autocomplete.addListener('place_changed', onPlaceChanged);
+
 }
 
 function onPlaceChanged() {
@@ -170,3 +171,13 @@ function buildIWContent(place) {
         document.getElementById('iw-website-row').style.display = 'none';
     }
 }
+
+//Help Button
+
+document.getElementById("helpButton").addEventListener("click", function() {
+    document.querySelector(".popupWindow").style.display = "flex";
+});
+
+document.querySelector(".closeButton").addEventListener("click", function() {
+   document.querySelector(".popupWindow").style.display = "none"; 
+});
