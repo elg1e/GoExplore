@@ -34,13 +34,23 @@ function onPlaceChanged() {
     }
 }
 
+function reset() {
+    clearMarkers();
+    moveToLocation(50.000, -50.644);
+    map.setZoom(3);
+}
+
+function moveToLocation(lat, lng) {
+    var center = new google.maps.LatLng(lat, lng);
+    // using global variable:
+    map.panTo(center);
+}
+
 function search(markerType) {
     var searchVar = {
         bounds: map.getBounds(),
         types: [markerType]
     };
-
-    clearMarkers();
 
     places.nearbySearch(searchVar, function(results, status) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
@@ -179,5 +189,5 @@ document.getElementById("helpButton").addEventListener("click", function() {
 });
 
 document.querySelector(".closeButton").addEventListener("click", function() {
-   document.querySelector(".popupWindow").style.display = "none"; 
+    document.querySelector(".popupWindow").style.display = "none";
 });

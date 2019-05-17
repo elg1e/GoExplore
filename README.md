@@ -20,11 +20,8 @@ User Stories:
 ### Google Map
  The main feature of this website is the [Google Maps API](https://cloud.google.com/maps-platform/). This allows the users to view anywhere around the world. This is how the user will be able to find a destination, use one of four filter buttons which will places markers on the map and allow the user to research the area before travelling. 
 
-### Four Button Map Filters
-
 ### Help Box
  Another fuction added to the site is a help button. This help button can be pressed at anytime by the user if they do not understand how to use the site. When the help button is pressed a pop up box will appear. In this box is a step by step guide on how to use the site.
-
  
 ## Technologies Used
 
@@ -36,6 +33,33 @@ User Stories:
 - GoogleFonts: Used to add different fonts to the website.
 
 ## Testing
+
+Manual Testing was complete to prove that the functionality of the website is working correctly.
+
+#### Search Bar Test
+1. Click the search bar in the center of the screen.
+2. Type a city/town (The search bar will autocomplete city/town). 
+3. Press Enter or click the Search button. 
+4. Google Maps API finds the city.
+5. Repeat test from the beginning. 
+6. Click the search bar in the center of the screen.
+7. Type anything else other than a city/town (The search bar will not autocomplete).
+
+#### Marker Test
+1. Press the search bar in the center of the screen.
+2. Type a city/town (The search bar will autocomplete city/town). 
+3. Press Enter or click the Search button (This will tell the Google API to search the location and move to it). 
+4. Google Maps API finds the city.
+5. Click the restaurant button (This will tell the Google API to place markers on the restaurants in the area).
+6. Markers will appear on the screen to show restaurants.
+7. Click markers to show restaurants (Infomation Windows will appear for each marker).
+8. Click reset button to remove the markers and reset the map bounds back to it's original position.
+9. Repeat this method for each individual button (Restaurants/Accommodation/Cafes/Bars).
+
+#### Help Button 
+1. Click the help button on the top right of the screen.
+2. A new window will appear showing a guide for the website. 
+3. Click the X in the top corner of the new window to close the page.
 
 ## Deployment
 
