@@ -18,12 +18,15 @@ User Stories:
 ## Features
 
 ### Google Map
+
  The main feature of this website is the [Google Maps API](https://cloud.google.com/maps-platform/). This allows the users to view anywhere around the world. This is how the user will be able to find a destination, use one of four filter buttons which will places markers on the map and allow the user to research the area before travelling. 
 
 ### Help Box
+
  Another fuction added to the site is a help button. This help button can be pressed at anytime by the user if they do not understand how to use the site. When the help button is pressed a pop up box will appear. In this box is a step by step guide on how to use the site.
  
 #### Features left to implement
+
  Another feature I would like to implement in the future would be more filters to the map to allow users to find even more information about the places they are looking to visit.
  
 ## Technologies Used
@@ -40,6 +43,7 @@ User Stories:
 Manual Testing was complete to prove that the functionality of the website is working correctly. The reason I have chosen to use manual testing instead of automated test is due to the JavaScript used in this website is from the Google Map API. 
 
 #### Search Bar Test
+
 1. Click the search bar in the center of the screen.
 2. Type a city/town (The search bar will autocomplete city/town). 
 3. Press Enter to find the city/town. 
@@ -49,6 +53,7 @@ Manual Testing was complete to prove that the functionality of the website is wo
 7. Type anything else other than a city/town i.e. a country or state (The search bar will not autocomplete).
 
 #### Marker Test
+
 1. Press the search bar in the center of the screen.
 2. Type a city/town (The search bar will autocomplete city/town). 
 3. Press Enter (This will tell the Google API to search the location and move to it). 
@@ -60,6 +65,7 @@ Manual Testing was complete to prove that the functionality of the website is wo
 9. Repeat this method for each individual button (Restaurants/Accommodation/Cafes/Bars).
 
 #### Help Button 
+
 1. Click the help button on the top right of the screen.
 2. A new window will appear showing a guide for the website. 
 3. Click the X in the top corner of the new window to close the page.
@@ -116,9 +122,6 @@ The Google Maps was taken from: https://cloud.google.com/maps-platform/
 
 ### Media
 
-The images used for the site were taken from:
+The image used for the site were taken from:
 
-- [Wallpaperscraft](https://images.wallpaperscraft.com/image/mountain_lodge_top_snow_92237_1920x1080.jpg)
 - [1zoom](http://s1.1zoom.me/b4853/62/Canada_Houses_Marinas_Evening_Bridges_Vancouver_521398_1920x1080.jpg)
-- [52dazhew](http://www.52dazhew.com/w/587228756.html)
-- [Eskipaper](http://eskipaper.com/images/awesome-beach-wallpaper-2.jpg)
