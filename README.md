@@ -6,7 +6,7 @@ GoExplore allows users to search for a destination then find bars, resturants, a
 ## UX
 
  The idea for this project was to create a website for users to be able to orginise their trips with one single search. 
-The priority for this project was to ensure the site is as user friendly as possible. By simply typing a destination and pressing the search button the user can find out about accommodation, bars, cafes and resturants. 
+The priority for this project was to ensure the site is as user friendly as possible. By simply typing a destination and searching the user can find out about accommodation, bars, cafes and resturants. 
 
 User Stories:
 
@@ -23,6 +23,9 @@ User Stories:
 ### Help Box
  Another fuction added to the site is a help button. This help button can be pressed at anytime by the user if they do not understand how to use the site. When the help button is pressed a pop up box will appear. In this box is a step by step guide on how to use the site.
  
+#### Features left to implement
+ Another feature I would like to implement in the future would be more filters to the map to allow users to find even more information about the places they are looking to visit.
+ 
 ## Technologies Used
 
 - HTML5: Mark-up language used for creating the website.
@@ -34,21 +37,21 @@ User Stories:
 
 ## Testing
 
-Manual Testing was complete to prove that the functionality of the website is working correctly.
+Manual Testing was complete to prove that the functionality of the website is working correctly. The reason I have chosen to use manual testing instead of automated test is due to the JavaScript used in this website is from the Google Map API. 
 
 #### Search Bar Test
 1. Click the search bar in the center of the screen.
 2. Type a city/town (The search bar will autocomplete city/town). 
-3. Press Enter or click the Search button. 
+3. Press Enter to find the city/town. 
 4. Google Maps API finds the city.
 5. Repeat test from the beginning. 
 6. Click the search bar in the center of the screen.
-7. Type anything else other than a city/town (The search bar will not autocomplete).
+7. Type anything else other than a city/town i.e. a country or state (The search bar will not autocomplete).
 
 #### Marker Test
 1. Press the search bar in the center of the screen.
 2. Type a city/town (The search bar will autocomplete city/town). 
-3. Press Enter or click the Search button (This will tell the Google API to search the location and move to it). 
+3. Press Enter (This will tell the Google API to search the location and move to it). 
 4. Google Maps API finds the city.
 5. Click the restaurant button (This will tell the Google API to place markers on the restaurants in the area).
 6. Markers will appear on the screen to show restaurants.
@@ -60,6 +63,40 @@ Manual Testing was complete to prove that the functionality of the website is wo
 1. Click the help button on the top right of the screen.
 2. A new window will appear showing a guide for the website. 
 3. Click the X in the top corner of the new window to close the page.
+
+### Responsive design
+The website has been tested using the developer tools in the browser so that the website will be compatible in different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
+
+The website has been tested in the following device resolutions:
+
+#### Mobiles
+
+- Pixel 2/XL
+- iPhone 5/SE/6/7/8
+- iPhone 6/7/8+
+- iPhone X
+- Galaxy S5/S9/S9+
+
+#### Tablets
+
+- iPad/iPad Pro
+- Kindle Fire HDX
+
+#### Desktops/XL Desktops
+
+The website has been tested with these browsers:
+
+- Google Chrome
+- FireFox
+- Internet Explorer
+
+### Validation
+
+The website has be validated using: 
+
+- [HTML Validator](https://validator.w3.org/nu/#textarea) Showing no errors.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/validator) Showing no errors.
+- [JavaScript Validator]() Showing no errors.
 
 ## Deployment
 

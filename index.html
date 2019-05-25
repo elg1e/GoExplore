@@ -15,28 +15,10 @@
 </head>
 
 <body>
-    <div id="backgroundCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="d-flex align-items-center justify-content-center min-vh-100">
-                    <img src="assets/images/vancouver.jpg" class="background-images" alt="Image of vancouver city">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-flex align-items-center justify-content-center min-vh-100">
-                    <img src="assets/images/mountainRange.jpg" class="background-images" alt="Image of a mountain range">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-flex align-items-center justify-content-center min-vh-100">
-                    <img src="assets/images/skiResort.jpg" class="background-images" alt="Image of a ski resort">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-flex align-items-center justify-content-center min-vh-100">
-                    <img src="assets/images/sandy.jpg" class="background-images" alt="Image of a beach">
-                </div>
-            </div>
+
+    <div class="background">
+        <div class="backgroundImage">
+            <img src="assets/images/vancouver.jpg">
         </div>
     </div>
 
@@ -48,16 +30,20 @@
         <div class="popupContent">
             <div class="closeButton">+</div>
             <div class="popupTitle">
-                <h2><span class="goColor">Go</span><span class="exploreFont">Explore</span> Guide!</h2>
+                <h2 id="popHeading"><span class="goColor">Go</span><span class="exploreFont">Explore</span> Guide!</h2>
             </div>
             <div class="popupText">
                 <p>GoExplore is designed to help you find out restaurants, accommodation, bars, and cafes in your chosen destination!<br>Here is a step by step guide to help you use the site!</p>
+                <h5>Step 1</h5>
                 <ul>
-                    <h5>Step 1</h5>
                     <li>Press the search box and find your chosen city and press search.</li>
-                    <h5>Step 2</h5>
+                </ul>
+                <h5>Step 2</h5>
+                <ul>
                     <li>When GoExplore has found your city, press one of the buttons (Restaurants, accommodation, bars, cafes) and the map will give you the information you need.</li>
-                    <h5>Step 3</h5>
+                </ul>
+                <h5>Step 3</h5>
+                <ul>
                     <li>If you need to search for another city, press the reset button and then repeat the steps.</li>
                 </ul>
             </div>
@@ -68,6 +54,10 @@
         <h1 id="title"><span id="go">Go</span>Explore</h1>
     </div>
 
+    <div class="infoText">
+        <p>Find out all there is to know about any city or town in the world with <span class="goColor">Go</span><span class="exploreFont">Explore</span>!</p>
+    </div>
+
     <div class="mapContainer">
         <div id="map"></div>
     </div>
@@ -76,7 +66,6 @@
         <input id="autocomplete" placeholder="Enter a city" type="text">
         <br>
         <div class="twoButtonGroup">
-            <button class="searchButton">Search</button>
             <button class="resetButton" onclick="reset();">Reset</button>
         </div>
     </div>
@@ -133,7 +122,7 @@
     </div>
 
     <script src="assets/js/script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAblhULSrxzeCAV196-wKF7B2BVm3QHOEY&libraries=places&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANcE36FFZpUlFouZWLMfDU3AlpOLEMxhc&libraries=places&callback=initMap" async defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

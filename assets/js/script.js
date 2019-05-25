@@ -34,10 +34,19 @@ function onPlaceChanged() {
     }
 }
 
+function searchButton(){
+    onPlaceChanged();
+}
+
 function reset() {
     clearMarkers();
     moveToLocation(50.000, -50.644);
     map.setZoom(3);
+    resetField();
+}
+
+function resetField() {
+    document.getElementById('autocomplete').value = '';
 }
 
 function moveToLocation(lat, lng) {
