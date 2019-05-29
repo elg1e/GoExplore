@@ -1,12 +1,13 @@
 # GoExplore
 
  GoExplore is a project created to allow users to discover and prepare for trips across the globe. 
-GoExplore allows users to search for a destination then find bars, resturants, accommodation and cafes within that area. 
+GoExplore allows users to search for a destination then find bars, resturants, accommodation and cafes within that area. The sites simplicity is the stand out point, being seconds away from finding everything you need to know to prepare for you trips across the globe.
  
 ## UX
 
- The idea for this project was to create a website for users to be able to orginise their trips with one single search. 
+ The idea for this project was to create a website for users to be able to prepare their trips with one single search. 
 The priority for this project was to ensure the site is as user friendly as possible. By simply typing a destination and searching the user can find out about accommodation, bars, cafes and resturants. 
+
 
 User Stories:
 
@@ -17,7 +18,7 @@ User Stories:
 
 Wireframes: 
 
- To create my wireframes / mock-ups I used [Wireframe.cc](https://wireframe.cc/). I have added a folder with .jpg images inside. The folder is found in assets/wireframes.
+ To create my wireframes / mock-ups I used [Wireframe.cc](https://wireframe.cc/). I have added a folder with .jpg images inside. The folder is found in [assets/wireframes](https://github.com/elg1e/GoExplore/tree/master/assets/wireframes).
 
 ## Features
 
@@ -29,10 +30,11 @@ Wireframes:
 
  Another fuction added to the site is a help button. This help button can be pressed at anytime by the user if they do not understand how to use the site. When the help button is pressed a pop up box will appear. In this box is a step by step guide on how to use the site.
  
-#### Features left to implement
+#### Features left to implement in the future
 
- Another feature I would like to implement in the future would be more filters to the map to allow users to find even more information about the places they are looking to visit.
- 
+- Create more filters to the map to allow users to find even more information about the places they are looking to visit.
+- Add a forum page which allows users to be able to communicate with each other and talk about their experiences together.
+
 ## Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML): Mark-up language used for creating the website.
@@ -44,7 +46,7 @@ Wireframes:
 
 ## Testing
 
-Manual Testing was complete to prove that the functionality of the website is working correctly. The reason I have chosen to use manual testing instead of automated test is due to the JavaScript used in this website is from the Google Map API. 
+Manual Testing was complete to prove that the functionality of the website is working correctly. The reason I have chosen to use manual testing instead of automated testing is due to the JavaScript used in this website is from the Google Map API. 
 
 #### Search Bar Test
 
@@ -76,7 +78,7 @@ Manual Testing was complete to prove that the functionality of the website is wo
 
 ### Responsive design
 
-The website has been tested using the developer tools in the browser so that the website will be compatible in different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
+The website has been tested using the developer tools and also with [Am i Responsive](http://ami.responsivedesign.is/). This was done so that the website will be compatible in all different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
 
 The website has been tested in the following device resolutions:
 
@@ -111,9 +113,7 @@ The website has be validated using:
 
 ## Deployment
 
-To create the website, I have used the coding platform [Cloud9](www.cloud9.io). Deployment and source control was entirely done via [GitHub](www.github.com). My repository can be found here:
-
-https://elg1e.github.io/GoExplore/
+To create the website, I have used the coding platform [Cloud9](www.cloud9.io). Deployment and source control was entirely done via [GitHub](www.github.com).
 
 I've published the source code built from the master branch using GitHub Pages. The live site can be found here:
 
@@ -127,6 +127,6 @@ The Google Maps was taken from: https://cloud.google.com/maps-platform/
 
 ### Media
 
-The image used for the site were taken from:
+The image used for the sites background was taken from:
 
 - [1zoom](http://s1.1zoom.me/b4853/62/Canada_Houses_Marinas_Evening_Bridges_Vancouver_521398_1920x1080.jpg)
