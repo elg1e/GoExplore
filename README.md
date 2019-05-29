@@ -15,6 +15,10 @@ User Stories:
 - As a user I want to be able to press a button to guide me through the steps so that I understand how to use the website.
 - As a user I want to be able to click a link to a cafe/hotel/bar/restaurant so that I can find out more information about it.
 
+Wireframes: 
+
+ To create my wireframes / mock-ups I used [Wireframe.cc](https://wireframe.cc/). I have added a folder with .jpg images inside. The folder is found in assets/wireframes.
+
 ## Features
 
 ### Google Map
@@ -71,6 +75,7 @@ Manual Testing was complete to prove that the functionality of the website is wo
 3. Click the X in the top corner of the new window to close the page.
 
 ### Responsive design
+
 The website has been tested using the developer tools in the browser so that the website will be compatible in different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
 
 The website has been tested in the following device resolutions:
@@ -102,7 +107,7 @@ The website has be validated using:
 
 - [HTML Validator](https://validator.w3.org/nu/#textarea) Showing no errors.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/validator) Showing no errors.
-- [JavaScript Validator]() Showing no errors.
+- [JavaScript Validator](https://codebeautify.org/jsvalidate) Showing no errors.
 
 ## Deployment
 

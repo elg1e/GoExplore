@@ -169,27 +169,12 @@
     }
 }
 
-/*Search Bar Buttons*/
+/*Reset Button*/
 
 .twoButtonGroup {
     margin-top: 10px;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.searchButton {
-    margin-top: 5px;
-    margin-right: 10px;
-    border-radius: 50px;
-    padding: 5px 25px;
-    background-color: #fff;
-    border: none;
-    transition: all 0.2s ease-in-out;
-}
-
-.searchButton:hover {
-    background-color: #e0e0e0;
-    transition: all 0.2s ease-in-out;
 }
 
 .resetButton {
@@ -242,6 +227,10 @@
     transition: all 0.4s ease-in-out;
 }
 
+.restaurantButton:focus {
+    outline: 0px;
+}
+
 .accommodationButton {
     width: 100%;
     height: 50px;
@@ -257,6 +246,10 @@
 .accommodationButton:hover {
     background-color: #17609b;
     transition: all 0.4s ease-in-out;
+}
+
+.accommodationButton:focus {
+    outline: 0px;
 }
 
 .barButton {
@@ -276,6 +269,10 @@
     transition: all 0.4s ease-in-out;
 }
 
+.barButton:focus {
+    outline: 0px;
+}
+
 .cafeButton {
     width: 100%;
     height: 50px;
@@ -293,17 +290,21 @@
     transition: all 0.4s ease-in-out;
 }
 
+.cafeButton:focus {
+    outline: 0px;
+}
+
 /*Help Button*/
 
 #helpButton {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    cursor: pointer;
     position: relative;
     text-align: right;
     margin-right: 10px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /*Help Button Window*/

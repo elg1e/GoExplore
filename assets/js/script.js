@@ -6,7 +6,10 @@ var hostnameRegexp = new RegExp('^https?://.+?/');
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 50.000, lng: -50.644 },
+        center: {
+            lat: 50.000,
+            lng: -50.644
+        },
         zoom: 3
     });
     infoWindow = new google.maps.InfoWindow({
@@ -32,10 +35,6 @@ function onPlaceChanged() {
     else {
         document.getElementById('autocomplete').placeholder = 'Enter a city';
     }
-}
-
-function searchButton(){
-    onPlaceChanged();
 }
 
 function reset() {
@@ -133,7 +132,9 @@ function clearResults() {
 
 function showInfoWindow() {
     var marker = this;
-    places.getDetails({ placeId: marker.placeResult.place_id },
+    places.getDetails({
+            placeId: marker.placeResult.place_id
+        },
         function(place, status) {
             if (status !== google.maps.places.PlacesServiceStatus.OK) {
                 return;
