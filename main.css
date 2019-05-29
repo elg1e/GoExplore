@@ -296,7 +296,7 @@
 
 /*Help Button*/
 
-#helpButton {
+#helpButtonBar {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -304,6 +304,9 @@
     text-align: right;
     margin-right: 10px;
     text-decoration: underline;
+}
+
+#helpButton {
     cursor: pointer;
 }
 
