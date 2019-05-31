@@ -107,8 +107,8 @@ The website has been tested with these browsers:
 
 The website has be validated using: 
 
-- [HTML Validator](https://validator.w3.org/nu/#textarea) Showing no errors.
-- [CSS Validator](https://jigsaw.w3.org/css-validator/validator) Showing no errors.
+- [HTML Validator](https://validator.w3.org) Showing no errors.
+- [CSS Validator](https://jigsaw.w3.org/css-validator) Showing no errors.
 - [JavaScript Validator](https://codebeautify.org/jsvalidate) Showing no errors.
 
 ## Deployment
