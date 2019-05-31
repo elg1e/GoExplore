@@ -1,12 +1,12 @@
 # GoExplore
 
  GoExplore is a project created to allow users to discover and prepare for trips across the globe. 
-GoExplore allows users to search for a destination then find bars, resturants, accommodation and cafes within that area. The sites simplicity is the stand out point, being seconds away from finding everything you need to know to prepare for you trips across the globe.
+GoExplore allows users to search for a destination then find bars, restaurants, accommodation and cafes within that area. The sites simplicity is the stand out point, being seconds away from finding everything you need to know to prepare for you trips across the globe.
  
 ## UX
 
  The idea for this project was to create a website for users to be able to prepare their trips with one single search. 
-The priority for this project was to ensure the site is as user friendly as possible. By simply typing a destination and searching the user can find out about accommodation, bars, cafes and resturants. 
+The priority for this project was to ensure the site is as user friendly as possible. By simply typing a destination and searching the user can find out about accommodation, bars, cafes and restaurants. 
 
 
 User Stories:

@@ -107,7 +107,7 @@
     font-style: italic;
 }
 
-/*Info Text*/
+/*Heading Text*/
 
 .infoText {
     text-align: center;
@@ -197,7 +197,7 @@
     outline: 0px;
 }
 
-/*Buttons*/
+/*Button Group*/
 
 .buttonContent {
     margin: 10px 0;
