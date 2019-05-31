@@ -24,11 +24,11 @@ Wireframes:
 
 ### Google Map
 
- The main feature of this website is the [Google Maps API](https://cloud.google.com/maps-platform/). This allows the users to view anywhere around the world. This is how the user will be able to find a destination, use one of four filter buttons which will places markers on the map and allow the user to research the area before travelling. 
+ The main feature of this website is the [Google Maps API](https://cloud.google.com/maps-platform/). This allows the users to view anywhere around the world. This is how the user will be able to find a destination, use one of four filter buttons which will place markers on the map and allow the user to research the area before travelling. 
 
 ### Help Box
 
- Another fuction added to the site is a help button. This help button can be pressed at anytime by the user if they do not understand how to use the site. When the help button is pressed a pop up box will appear. In this box is a step by step guide on how to use the site.
+ Another function added to the site is a help button. This help button can be pressed at anytime by the user if they do not understand how to use the site. When the help button is pressed a pop up box will appear. In this box is a step by step guide on how to use the site.
  
 #### Features left to implement in the future
 
@@ -46,7 +46,7 @@ Wireframes:
 
 ## Testing
 
-Manual Testing was complete to prove that the functionality of the website is working correctly. The reason I have chosen to use manual testing instead of automated testing is due to the JavaScript used in this website is from the Google Map API. 
+Manual Testing was completed to ensure the website is functioning correctly. The reason I have chosen to use manual testing instead of automated testing is because the JavaScript used is from the Google Maps API.
 
 #### Search Bar Test
 
@@ -113,7 +113,9 @@ The website has be validated using:
 
 ## Deployment
 
-To create the website, I have used the coding platform [Cloud9](www.cloud9.io). Deployment and source control was entirely done via [GitHub](www.github.com).
+To create the website, I have used the coding platform [Cloud9](www.cloud9.io). Deployment and source control was entirely done via [GitHub](www.github.com). My repository can be found here:
+
+https://github.com/elg1e/GoExplore
 
 I've published the source code built from the master branch using GitHub Pages. The live site can be found here:
 
